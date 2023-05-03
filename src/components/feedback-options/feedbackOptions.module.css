@@ -1,0 +1,20 @@
+.feedbackOption {
+  width: 100%;
+}
+
+.feedbackOptionBtn {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background-color: white;
+}
+.feedbackOptionBtn:active {
+  background-color: #3485f4;
+  color: white;
+}
+.feedbackOptionBtn:not(:last-child) {
+  margin-right: 10px;
+}
